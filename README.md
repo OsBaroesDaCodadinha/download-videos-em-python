@@ -3,7 +3,14 @@
 
 Esse repo e publico mas foi construido com o intuido particular de transferencia de alguns arquivos de um computador local para um servidor na nuvem utilizando ngrok e o laravel como fornecedores de acesso aos links dos arquivos e a um json
 
-
+### Versão Python
+```bash
+    Python 3.7.16
+```
+### Requesitos
+```bash
+pip install fastdownload
+```
 
 ## Função Fornecedora do Json
 
