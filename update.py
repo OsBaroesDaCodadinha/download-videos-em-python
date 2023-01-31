@@ -34,7 +34,7 @@ for keys in secrets:
             for keysLKey in secrets[keys][keysM][keysL]:
                 lectureKey = keysLKey
                 d = FastDownload(
-                    base=f'../{folder}/app/{type}/videos/{curso}/{module}/{lecture}', archive=lecture)
+                    base=f'../{folder}/app/{type}/videos/{curso}/{module}', archive=lecture)
                 d.download(
                     f"{urlInput}/download/{type}/{curso}/{module}/{lecture}/{lectureKey}")
 
@@ -51,7 +51,7 @@ for keys in videos:
             for keysLKey in videos[keys][keysM][keysL]:
                 lectureKey = keysLKey
                 d = FastDownload(
-                    base=f'../{folder}/{type}/videos/{curso}/{module}/{lecture}', archive=lecture)
+                    base=f'../{folder}/{type}/videos/{curso}/{module}', archive=lecture)
                 d.download(
                     f"{urlInput}/download/{type}/{curso}/{module}/{lecture}/{lectureKey}")
 print(f"{type} atualizado com sucesso!")
