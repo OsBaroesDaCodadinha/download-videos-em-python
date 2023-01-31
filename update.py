@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from fastdownload import FastDownload
 from urllib.request import urlopen
 import json
